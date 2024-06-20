@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Homepage</title>
+
+	<!-- CSS reset -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700&family=Poppins:wght@700&display=swap"
+		rel="stylesheet">
+
+	<!-- Main stylesheet -->
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="bg">
+		<header>
+			<a href="index.html">
+				<img src="images/Logo.png" width="100px" height="95px" alt="">
+			</a>
+
+			<nav>
+				<ul class="unstyled">
+					<li><a href="#">Films</a></li>
+					<li><a href="#">Over ons</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+
+			<button id="menu-button">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</header>
+
+		<div id="mobile-menu-container">
+			<ul class="unstyled">
+				<li><a href="#">Films</a></li>
+				<li><a href="#">Over ons</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+
+		<section id="hero">
+			<hgroup>
+				<h1>Comedy Club</h1>
+				<h3>We zijn een comedy club gelegen in Mechelen, met maandelijk een komische klassieker</h3>
+			</hgroup>
+
+			<ul class="social unstyled">
+				<li><a href="#">FB</a></li>
+				<li><a href="#">IG</a></li>
+				<li><a href="#">X</a></li>
+				<li><a href="#">YT</a></li>
+			</ul>
+
+			<div id="icon-scroll-down">
+				<svg width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M5.5 19V1M9.5 15L5.5 19L9.5 15ZM5.5 19L1.5 15L5.5 19Z" stroke="#000000" stroke-width="2"
+						stroke-linecap="round" stroke-linejoin="round" />
+				</svg>
+			</div>
+		</section>
+	</div>
+	<main id="gallery">
+		<div class="quote">
+			<blockquote>
+				&quot;Lachen is gezond!!!&quot;
+
+				<cite>- Filmhuis Comedy Club</cite>
+			</blockquote>
+
+			<button class="link-button">
+				Films
+
+				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M21 12H3M17 8L21 12L17 8ZM21 12L17 16L21 12Z" stroke="#000000" stroke-width="2"
+						stroke-linecap="round" stroke-linejoin="round" />
+				</svg>
+			</button>
+		</div>
+		<div class="gallery--item">
+			<a href="#">
+				<figure>
+					<img src="images/THE-BIG-LEBOWSKI.png" alt="The big lebowski">
+				</figure>
+			</a>
+
+			<hgroup>
+				<h6> Open Mic <span></span> 29/01 </h6>
+				<h4>The big lebowski</h4>
+			</hgroup>
+		</div>
+		<div class="gallery--item">
+			<a href="#">
+				<figure>
+					<img src="images/MON_ONCLE.png" alt="Mon oncle">
+				</figure>
+			</a>
+
+			<hgroup>
+				<h6> Philippe Geubels <span></span> 26/2 </h6>
+				<h4>Mon Oncle</h4>
+			</hgroup>
+		</div>
+		<div class="gallery--item">
+			<a href="#">
+				<figure>
+					<img src="images/TEAM_AMERICA.png" alt="Team America">
+				</figure>
+			</a>
+
+			<hgroup>
+				<h6> Open Mic <span></span> 25/3 </h6>
+				<h4>Team America: World police</h4>
+			</hgroup>
+		</div>
+		<div class="gallery--item">
+			<a href="#">
+				<figure>
+					<img src="images/THE_TRUMAN_SHOW.png" alt="The truman show">
+				</figure>
+			</a>
+
+			<hgroup>
+				<h6> Soe Nsuki <span></span> 29/4 </h6>
+				<h4>The truman show</h4>
+			</hgroup>
+		</div>
+		<div class="gallery--item">
+			<a href="#">
+				<figure>
+					<img src="images/CLERKS.png" alt="Clercks">
+				</figure>
+			</a>
+
+			<hgroup>
+				<h6> Open Mic <span></span> 27/5 </h6>
+				<h4>Clercks</h4>
+			</hgroup>
+		</div>
+	</main>
+
+	<section id="form">
+		<div class="container">
+			<div class="text">
+			   Tickets bestellen
+			</div>
+			<form action="#">
+			   <div class="form-row">
+				  <div class="input-data">
+					 <input type="text" required>
+					 <div class="underline"></div>
+					 <label for="">Voornaam</label>
+				  </div>
+				  <div class="input-data">
+					 <input type="text" required>
+					 <div class="underline"></div>
+					 <label for="">Naam</label>
+				  </div>
+			   </div>
+			   <div class="form-row">
+				  <div class="input-data">
+					 <input type="text" required>
+					 <div class="underline"></div>
+					 <label for="">Email</label>
+				  </div>
+				  <div class="input-data">
+					 <input type="text" required>
+					 <div class="underline"></div>
+					 <label for="">Aantal tickets</label>
+				  </div>
+			   </div>
+			   <div class="form-row">
+			   <div class="input-data textarea">
+				  <div class="form-row submit-btn">
+					 <div class="input-data">
+						<div class="inner"></div>
+						<input type="submit" value="Doorsturen">
+					 </div>
+				  </div>
+			</form>
+			</div>
+		</section>
+
+	<footer>
+		<hgroup>
+			<h5></h5>
+			<h2>Leer nieuwe mensen kennen!</h2>
+		</hgroup>
+
+		<button class="link-button">
+			Contacteer ons
+
+			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M21 12H3M17 8L21 12L17 8ZM21 12L17 16L21 12Z" stroke="#000000" stroke-width="2"
+					stroke-linecap="round" stroke-linejoin="round" />
+			</svg>
+		</button>
+
+		<ul class="social unstyled">
+			<li><a href="#">FB</a></li>
+			<li><a href="#">IG</a></li>
+			<li><a href="#">X</a></li>
+			<li><a href="#">YT</a></li>
+		</ul>
+
+		<p>&copy; 2024 Fanta Fantastico. All rights reserved.</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
